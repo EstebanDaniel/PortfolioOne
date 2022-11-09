@@ -1,0 +1,27 @@
+.about{
+    background-color: var(--cor-sobre-mi);
+    margin-top:1.5rem;
+}
+
+.about__container{
+    width: 80%;
+    margin:auto;
+    gap:16px;
+    
+}
+
+.about__title{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.about__p{
+    padding: 1rem 0 8rem 0;
+}
+
+.about__paragraph{
+  
+    width:70%;
+   
+
+}

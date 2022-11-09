@@ -42,8 +42,6 @@ https://en.bem.info/methodology/quick-start/*/
 .todo{
    
     min-height: 100vh;
-    width: 80%;
-    margin: auto;
     color:var(--cor-de-fuente);
 }
 
