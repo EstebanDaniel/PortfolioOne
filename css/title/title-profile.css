@@ -1,0 +1,19 @@
+.title__profile{
+    order:1;
+    background: url('/assets/profile.jpeg') center / cover no-repeat;
+    border-radius: 100%;
+    border-color: #464646;
+   height: 368px;
+   width: 368px;
+}
+
+
+
+.title__bio{
+    font-size:3.25rem;
+}
+
+.title__subsection{
+    font-size:1.375rem;
+    font-weight: normal;
+}

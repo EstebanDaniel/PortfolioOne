@@ -1,0 +1,19 @@
+ .menu__header {
+   display: flex; 
+   
+}
+
+.menu__imagen{
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 0.65rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.menu__title{
+  font-size:1rem;
+}
+
+
+

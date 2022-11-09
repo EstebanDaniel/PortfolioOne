@@ -1,0 +1,9 @@
+/*Sección Title*/
+
+.title__div{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+

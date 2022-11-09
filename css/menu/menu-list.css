@@ -1,0 +1,19 @@
+.menu__list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+.menu__list__item__contacto{
+   font-weight: bold;
+}
+
+.menu__list__item:hover{
+    
+    text-decoration: underline;
+}
+
+.menu__list__item__contacto:hover{
+    text-decoration: underline;
+}
