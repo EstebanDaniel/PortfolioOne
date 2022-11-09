@@ -1,0 +1,26 @@
+.skills__box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width:176px;
+    height:174px;
+    background-color: #fff;
+    padding-left: 0;
+}
+
+.skills__box ul{
+    padding-left: 1rem;
+}
+
+.skills__box:hover{
+    transition: 0.3s all;
+    transform: scale(0.9);
+}
+
+.skills__name{
+
+    margin-top:0.5rem;
+    font-weight:bold;
+    
+    
+}
