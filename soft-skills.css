@@ -1,0 +1,14 @@
+.soft{
+    width: 80%;
+    margin: auto;
+    margin-top:6rem;
+    margin-bottom:6rem;
+ }
+ 
+ .soft__title{
+ 
+     text-align: center;
+     font-weight:bold;
+     font-size:2rem;
+ 
+ }

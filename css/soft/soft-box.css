@@ -1,4 +1,4 @@
-.skills__box{
+.soft__box{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -8,21 +8,21 @@
     padding-left: 0;
 }
 
-.skills__box ul{
+.soft__box ul{
     padding-left: 1rem;
 }
 
-.skills__box:hover{
+.soft__box:hover{
     transition: 0.3s all;
     transform: scale(0.9);
 }
 
-.skills__img{
+.soft__img{
     font-size:2rem;
     color:#2A7AE4;
 }
 
-.skills__name{
+.soft__name{
 
     margin-top:0.5rem;
     font-weight:bold;
