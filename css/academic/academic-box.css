@@ -1,0 +1,16 @@
+.academic__courses{
+    width: 80%;
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    gap:10px;
+    
+
+}
+
+.academic__courses__box{
+  
+    text-align:center;
+    margin-top:0.5rem;
+    
+}

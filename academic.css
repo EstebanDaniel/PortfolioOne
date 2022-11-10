@@ -1,0 +1,15 @@
+.academic{
+    width:100%;
+    background-color: var(--cor-sobre-mi);
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+
+.academic__title{
+    text-align: center;
+    font-weight:bold;
+    font-size:2rem;
+    
+    
+
+}
