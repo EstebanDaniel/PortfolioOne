@@ -1,0 +1,36 @@
+.experience__card{
+    margin-right: 10px;
+    position:relative;
+    
+}
+
+
+.experience__card img{
+    width:368px;
+    
+    height:368px;
+
+}
+
+.experience__card__body{
+    height:53%;
+    position:absolute;
+    bottom:0;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.experience__card__body h5{
+   
+    font-size:1.375rem;
+    padding-bottom: 0.5rem;
+}
+
+.experience__card__body h5,.experience__card__body p {
+    margin:0;
+}
+
+.experience__card__body p {
+    height:96px;
+}

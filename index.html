@@ -28,6 +28,10 @@
     <link rel="stylesheet" href="./academic.css">
     <link rel="stylesheet" href="./css/academic/academic-box.css">
     <link rel="stylesheet" href="./css/academic/academic-list.css">
+    <!--section css experiencia laboral/proyectos-------------->
+    <link rel="stylesheet" href="./experience.css">
+    <link rel="stylesheet" href="./css/experience/experience-card.css">
+    <link rel="stylesheet" href="./css/experience/experince-card-btn.css">
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -221,61 +225,99 @@
 
     <!-- Sección de Experiencia Profesional/Proyectos------------------------------------------------------------------------------->
     <section class="experience" id="xp">
-        <h2 class="experience__section__title" >Experiencia Profissional</h2>
-        <div class="experiencie__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets\decod_print.png">
-            <div class="experience__info"
-                <h2 class="experience__title">Encriptador de texto</h2>
-                <h3 class="experience__text">Challenge Alura Codificador </h3>
-                    <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
+        <h2 class="experience__section__title" >Experiencia Profesional y Proyectos</h2>
+            <div class="experience__galery">
+                <div class ="experience__card">
+                    <img src="./assets/fondoAp.jpg" alt="ap_logo">
+                    <div class="experience__card__body">
+                        <h5>Portfolio Fullstack</h5>
+                        <p>Realizado en el marco del programa nacional Fullstack Developer jr. "Argentina programa - Yo programo".
+                             utilizando diversas herramientas como Angular para el frontend, Java Springboot para el backend, MySQL en base de datos relacionales,
+                             entre otros.
+                        </p>
+                        <div class="experience__card__btn">
+                            <a href="https://github.com/EstebanDaniel" target="_blank"><button class="experience__card__btn--repo">Repositório</button></a>
+                            <a href="https://hosting-angular-99528.web.app" target="_blank"><button class="experience__card__btn--demo">Ver demo</button></a>
+                        </div>
                     </div>
-            </div>
-        </div>  
+                </div>
 
-        <div class="experiencie__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto ----------->
-            <img class="experience__img" src="assets\forca_print.png">
-            <div class="experience__info"
-                <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
+                <div class ="experience__card"> 
+                    <img src="./assets/aluralatam.png" alt="portfolioOne">
+                    <div class="experience__card__body">
+                        <h5>Portfolio frontend</h5>
+                        <p>Realizado en el marco del programa One Oracle Next Education de Alura latam, como parte del challenge numero tres.
+                            Utilizando html, Css, Js para la realización del proyecto.
+                        </p>
+                        <div class="experience__card__btn">
+                            <a href="https://github.com/EstebanDaniel/PortfolioOne.git" target="_blank"><button class="experience__card__btn--repo">Repositório</button></a>
+                            <a href="" target="_blank"><button class="experience__card__btn--demo">Ver demo</button></a>
+                        </div>
                     </div>
-            </div>
-        </div>  
+                </div>
 
-        <div class="experience__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto -------------------->
-            <img class="experience__img" src="assets\secretcode_print.png">
-            <div class="experience__info-container"
-                <h2 class="experience__title">Encriptador de texto</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages ----------------------->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
+                <div class ="experience__card">
+                    <img src="./assets/ahorcado.png" alt="ahorcadoOne">
+                    <div class="experience__card__body">
+                        <h5>Juego del ahorcado</h5>
+                        <p>Challenge dos del programa One Oracle Next Education de Alura, donde se pone en practica el manejo del DOM con Js.</p>
+                        <div class="experience__card__btn">
+                            <a href="https://github.com/EstebanDaniel/OneJuegoAhorcado.git" target="_blank"><button class="experience__card__btn--repo">Repositório</button></a>
+                            <a href="https://estebandaniel.github.io/OneJuegoAhorcado/" target="_blank"><button class="experience__card__btn--demo">Ver demo</button></a>
+                        </div>
                     </div>
-            </div>
-        </div>  
+                </div>
 
-        <div class="experience__box">
+                <div class ="experience__card">
+                    <img src="./assets/encriptador.png" alt="encriptadorOne">
+                    <div class="experience__card__body">
+                        <h5>Encriptador One</h5>
+                        <p>Primer challenge del programa One Oracle Next Education de Alura latam, como puesta a punto de los conocimientos adquiridos
+                            en la ruta "principiante en programación"
+                        </p>
+                            <div class="experience__card__btn">
+                            <a href="https://github.com/EstebanDaniel/EncriptadorOne.git" target="_blank"><button class="experience__card__btn--repo">Repositório</button></a>
+                            <a href="https://estebandaniel.github.io/EncriptadorOne/" target="_blank"><button class="experience__card__btn--demo">Ver demo</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class ="experience__card">
+                    <img src="./assets/dasslogo.png" alt="dassLogo">
+                    <div class="experience__card__body">
+                        <h5>Dass SRL. Misiones, Argentina</h5>
+                        <p>Operario en multiples puestos, en los 9 años que desempeñe funciones en la empresa. Obteniendo un perfil responsable,
+                            con orientación a mejoras del desepeño de la mano de LEAN, 5s, etc.
+                            
+                        </p>
+                         <p>
+                            2011-2020
+                         </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+      <!--  <div class="experience__box">
             <img class="experience__img" src="assets\forca2_print.png">
             <div class="experience__info-container"
             <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
                 <h3 class="experience__text">Challenge Oracle </h3>
                     <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -------------->
+                           //  Pon el enlace del proyecto en Github o GithubPages //----------
                             <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
                             <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
                     </div>
         </div>
-        </div>  
+        </div> ---->
+    </section> 
 
         <!-- Sección de Contacto ----------------------------------------------------------------------------------------------------->
         <section class="formcontato" id="contacto">
