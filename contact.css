@@ -1,0 +1,16 @@
+.formcontacto{
+    width: 100%;
+    background-color:var( --cor-sobre-mi);
+    margin-top: 6rem;
+}
+
+.formcontacto__contacto {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 6rem 3rem 3rem 3rem;
+
+}
+
+
+

@@ -1,0 +1,30 @@
+.formcontacto--esquerda{
+
+    padding:0 1rem 0 0;
+}
+
+.formcontacto__img{
+    height: 593px;
+    width:464px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formcontacto__text{
+    display: block;
+   
+    
+    
+}
+
+.formcontato__title{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.formcontacto__subtext{
+    font-size:1rem;
+    font-weight:normal;
+    margin: 0 0 0.5rem 0;  
+}
