@@ -5,6 +5,7 @@ export function valida(input) {
 
     if (validadores[tipoDeInput]) {
       validadores[tipoDeInput](input);
+      console.log(validadores[tipoDeInput]);
     }
     
     if (input.validity.valid) {
@@ -61,8 +62,8 @@ export function valida(input) {
     let mensaje = "";
     tipoDeErrores.forEach((error) => {
       if (input.validity[error]) {
-        console.log("tipo de input:", tipoDeInput, error);
-        console.log("input validity:",input.validity[error]);
+        console.log("tipo de input y error:", tipoDeInput, error);
+        console.log("input validity boolean:",input.validity[error]);
         console.log("mensaje de error:",mensajesDeError[tipoDeInput][error]);
         mensaje = mensajesDeError[tipoDeInput][error];
       }
@@ -78,6 +79,7 @@ export function valida(input) {
     }
    
     input.setCustomValidity(mensaje);
+    
   }
 
 

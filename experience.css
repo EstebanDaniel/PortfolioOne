@@ -19,3 +19,20 @@
     padding:1rem;
 }
 
+.experience__galery::-webkit-scrollbar{
+    width: 10px;
+    background: #d6eaff;
+    border-radius:100px;
+    
+}
+
+.experience__galery::-webkit-scrollbar-thumb{
+    border-radius:100px;
+    background: #0071ea;
+    
+}
+
+.experience__galery::-webkit-scrollbar-thumb:hover{
+    background: #0068d7;
+    
+}
