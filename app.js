@@ -33,7 +33,7 @@ textareas.forEach((textarea) => {
     })
     if(response.ok){
       this.reset();
-      alert("formulario enviado!!")
+      location.href = "formulario_enviado.html"
     }
    }
   

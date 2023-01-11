@@ -20,6 +20,14 @@ en las secciones señaladas */
    --shadow: 0 5px 10px #55a6ff38;
 }
 
+html.dark-mode{
+    filter:invert(100%);
+}
+
+html.dark-mode img{
+    filter:invert(100%);
+}
+
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;

@@ -1,0 +1,81 @@
+.container {
+   background-color: #d6eaff;
+   min-height: 100vh;
+   font-family: 'Raleway';
+}
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  
+  .registry-header__logo {
+    width: 2.625rem;
+    margin-top:3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .registry-header__title {
+  
+    margin-bottom: 1rem;
+  }
+  
+  .registry-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .registry-card__icon-complete {
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+  
+    margin-bottom: 1rem;
+  
+    background-image: url(./assets/checkmark.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .registry-card__title {
+    max-width: 20rem;
+  }
+  
+  .button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid;
+    background-color:#2A7AE4;
+    color:#fff;
+    
+
+
+}
+
+.button:hover{
+    transition: all 0.3s;
+    opacity: 0.8;
+}
+
+  
+  @media (min-width: 800px) {
+    .registry-header__logo {
+      width: 5.75rem;
+      margin-bottom: 1rem;
+    }
+  
+    .registry-header__title {
+      margin-bottom: 2rem;
+    }
+  }
+  
