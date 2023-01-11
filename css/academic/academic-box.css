@@ -14,3 +14,9 @@
     margin-top:0.5rem;
     
 }
+
+.academic__courses__box:hover{
+    cursor: pointer;
+    transition: 0.3s all;
+    transform: scale(0.9);
+}

@@ -1,360 +1,534 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Referencia de la hoja de estilo de Css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!--css del menu----------------------------------------->
-    <link rel="stylesheet" href="./menu.css">
-    <link rel="stylesheet" href="./css/menu/menu-header.css"/>
-    <link rel="stylesheet" href="./css/menu/menu-list.css">
+    <link rel="stylesheet" href="./menu.css" />
+    <link rel="stylesheet" href="./css/menu/menu-header.css" />
+    <link rel="stylesheet" href="./css/menu/menu-list.css" />
     <!--css header__title----------------------------------->
-    <link rel="stylesheet" href="./title.css">
-    <link rel="stylesheet" href="./css/title/title-profile.css">
-    <link rel="stylesheet" href="./css/title/title-network.css">
+    <link rel="stylesheet" href="./title.css" />
+    <link rel="stylesheet" href="./css/title/title-profile.css" />
+    <link rel="stylesheet" href="./css/title/title-network.css" />
     <!--css section about------------------------------------->
-    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./about.css" />
     <!-----------css section hard skilsss-------------------------->
-    <link rel="stylesheet" href="./skills.css">
-    <link rel="stylesheet" href="./css/skills/skills-line.css">
-    <link rel="stylesheet" href="./css/skills/skills-box.css">
+    <link rel="stylesheet" href="./skills.css" />
+    <link rel="stylesheet" href="./css/skills/skills-line.css" />
+    <link rel="stylesheet" href="./css/skills/skills-box.css" />
     <!--css section soft skilss------------------------------------->
-    <link rel="stylesheet" href="./soft-skills.css">
-    <link rel="stylesheet" href="./css/soft/soft-line.css">
-    <link rel="stylesheet" href="./css/soft/soft-box.css">
+    <link rel="stylesheet" href="./soft-skills.css" />
+    <link rel="stylesheet" href="./css/soft/soft-line.css" />
+    <link rel="stylesheet" href="./css/soft/soft-box.css" />
     <!--css Sección de Formación académica -------------------->
-    <link rel="stylesheet" href="./academic.css">
-    <link rel="stylesheet" href="./css/academic/academic-box.css">
-    <link rel="stylesheet" href="./css/academic/academic-list.css">
+    <link rel="stylesheet" href="./academic.css" />
+    <link rel="stylesheet" href="./css/academic/academic-box.css" />
+    <link rel="stylesheet" href="./css/academic/academic-list.css" />
     <!--section css experiencia laboral/proyectos-------------->
-    <link rel="stylesheet" href="./experience.css">
-    <link rel="stylesheet" href="./css/experience/experience-card.css">
-    <link rel="stylesheet" href="./css/experience/experince-card-btn.css">
+    <link rel="stylesheet" href="./experience.css" />
+    <link rel="stylesheet" href="./css/experience/experience-card.css" />
+    <link rel="stylesheet" href="./css/experience/experince-card-btn.css" />
     <!--------section de de contaco------------------->
-    <link rel="stylesheet" href="./contact.css">
-    <link rel="stylesheet" href="./css/contact/contact-title.css">
-    <link rel="stylesheet" href="./css/contact/contact-form.css">
+    <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="./css/contact/contact-title.css" />
+    <link rel="stylesheet" href="./css/contact/contact-form.css" />
     <!-----section del footer-------------------------->
-    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./footer.css" />
     <!--validaciones del form-->
-    <link rel="stylesheet" href="./css/validations/inputs.css">
+    <link rel="stylesheet" href="./css/validations/inputs.css" />
 
     <!--font awesome para los icons del proyecto-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
     <!--bootstrap icons para el proyecto---------->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Fonte del Proyecto Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <title> Mi Portafolio</title>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mi Portafolio</title>
+  </head>
+  <body>
     <!-- Sección del Menú--------------------------------------------------------------------------------------------------------------------------  -->
     <div class="todo">
-    <section class="menu">
+      <section class="menu">
         <header class="menu__header">
-            <img class="menu__imagen" src="assets\vector.png">
-            <h3 class="menu__title">Esteban Cardozo</h3>
+          <img class="menu__imagen" src="assets\vector.png" />
+          <h3 class="menu__title">Esteban Cardozo</h3>
         </header>
         <nav>
-            <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="menu__list__item"><a href="#skills">Hard Skills</a></li>
-                <li class="menu__list__item"><a href="#soft">Soft Skills</a></li>
-                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item__contacto"><a href="#contacto">estebandanielcardozo65@gmail.com</a></li>
-            </ul>
-            
+          <ul class="menu__list">
+            <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+            <li class="menu__list__item"><a href="#skills">Hard Skills</a></li>
+            <li class="menu__list__item"><a href="#soft">Soft Skills</a></li>
+            <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+            <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+            <li class="menu__list__item__contacto">
+              <a href="#contacto">estebandanielcardozo65@gmail.com</a>
+            </li>
+          </ul>
         </nav>
-    </section>
+      </section>
 
-    <!-- Sección del Header/Title/Hero ----------------------------------------------------------------------------------->
-    <section class="title">
+      <!-- Sección del Header/Title/Hero ----------------------------------------------------------------------------------->
+      <section class="title">
         <div class="title__div">
-            <img class="title__profile" src="./assets/profile.jpeg">
-            <div class="title__container">
-                <h2 class="title__bio">Hola, mi nombre es Esteban Cardozo y soy desarrolador web Fullstack jr.</h2>
-                <h3 class="title__subsection">Egresado de "Argentina programa", y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
-                <ul class="title__network">
-                     <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="https://github.com/EstebanDaniel" target="_blank">Github <i class="bi bi-github"></i> </a></li>
-                    <li class="title__network__item"><a href="https://www.linkedin.com/in/esteban-daniel-cardozo-7b8060239/" target="_blank">Linkedin <i class="bi bi-linkedin"></i> </a></li>
-                    <li class="title__network__item"><a href="https://www.instagram.com/estebandaniel.cardozo/" target="_blank">Instagram <i class="bi bi-instagram"></i></a></li>
-                    <li class="title__network__item"><a download href="./assets/CV_ESTEBAN_DANIEL_CARDOZO.pdf">Currículum <i class="bi bi-file-person"></i></a></li>
-                </ul>
-            </div>
+          <img class="title__profile" src="./assets/profile.jpeg" />
+          <div class="title__container">
+            <h2 class="title__bio">
+              Hola, mi nombre es Esteban Cardozo y soy desarrolador web
+              Fullstack jr.
+            </h2>
+            <h3 class="title__subsection">
+              Egresado de "Argentina programa", y actualmente estoy participando
+              del proyecto Oracle ONE en Alura Latam.
+            </h3>
+            <ul class="title__network">
+              <!-- Pon los enlaces de tus redes sociales favoritas -->
+              <li class="title__network__item">
+                <a href="https://github.com/EstebanDaniel" target="_blank"
+                  >Github <i class="bi bi-github"></i>
+                </a>
+              </li>
+              <li class="title__network__item">
+                <a
+                  href="https://www.linkedin.com/in/esteban-daniel-cardozo-7b8060239/"
+                  target="_blank"
+                  >Linkedin <i class="bi bi-linkedin"></i>
+                </a>
+              </li>
+              <li class="title__network__item">
+                <a
+                  href="https://www.instagram.com/estebandaniel.cardozo/"
+                  target="_blank"
+                  >Instagram <i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li class="title__network__item">
+                <a download href="./assets/CV_ESTEBAN_DANIEL_CARDOZO.pdf"
+                  >Currículum <i class="bi bi-file-person"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </section>
-    
-    <!-- Sección sobre mi-------------------------------------------------------------------------------- -->
-    <section class="about" id="sobre-mi">
+      </section>
+
+      <!-- Sección sobre mi-------------------------------------------------------------------------------- -->
+      <section class="about" id="sobre-mi">
         <div class="about__container">
-            
-            <div class="about__p">
+          <div class="about__p">
             <h3 class="about__title">Sobre mi</h3>
-            <p class="about__paragraph">Estudiante de la carrera Fullstack developer jr. Angular; Java Spring boot; MySQL; Metodologías agiles con SCRUM; sistemas de control de versiones con Git y Github.</p>
-            <p class="about__paragraph">Busco adquirir experiencia en el desarrollo de aplicaciones web. Soy un apasionado por la tecnología, me encanta trabajar en equipo, el aprendizaje constante y contribuir con mis conocimientos.</p>
-            </div>
-            <!-- Si quieres, pon tú firma acá! -->
-            <!--<img src="assets\signature.png">-->
+            <p class="about__paragraph">
+              Estudiante de la carrera Fullstack developer jr. Angular; Java
+              Spring boot; MySQL; Metodologías agiles con SCRUM; sistemas de
+              control de versiones con Git y Github.
+            </p>
+            <p class="about__paragraph">
+              Busco adquirir experiencia en el desarrollo de aplicaciones web.
+              Soy un apasionado por la tecnología, me encanta trabajar en
+              equipo, el aprendizaje constante y contribuir con mis
+              conocimientos.
+            </p>
+          </div>
+          <!-- Si quieres, pon tú firma acá! -->
+          <!--<img src="assets\signature.png">-->
         </div>
-    </section>
+      </section>
 
-    <!-- Sección de Skills------------------------------------------------------------------------- -->
-    <section class="skills" id="skills">
+      <!-- Sección de Skills------------------------------------------------------------------------- -->
+      <section class="skills" id="skills">
         <h3 class="skills__title">Hard Skills</h3>
-            <div class="skills__line">
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><i class="fa-brands fa-html5"></i></li>
-                        <li class="skills__name"> HTML 5</li>
-                    </ul>
-                </div>
+        <div class="skills__line">
+          <div class="skills__box">
+            <ul>
+              <li class="skills__img"><i class="fa-brands fa-html5"></i></li>
+              <li class="skills__name">HTML 5</li>
+            </ul>
+          </div>
 
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <i class="fa-brands fa-square-js"></i></li>
-                        <li class="skills__name">Javascript</li>
-                    </ul>
-                </div>
+          <div class="skills__box">
+            <ul>
+              <li class="skills__img">
+                <i class="fa-brands fa-square-js"></i>
+              </li>
+              <li class="skills__name">Javascript</li>
+            </ul>
+          </div>
 
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <i class="fa-brands fa-angular"></i></li>
-                        <li class="skills__name">Angular</li>
-                    </ul>
-                </div>
+          <div class="skills__box">
+            <ul>
+              <li class="skills__img"><i class="fa-brands fa-angular"></i></li>
+              <li class="skills__name">Angular</li>
+            </ul>
+          </div>
 
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
-                        <li class="skills__name">Node JS</li>
-                    </ul>
-                </div>
+          <div class="skills__box">
+            <ul>
+              <li class="skills__img">
+                <img src="assets\nodejs_icon.png" alt="" />
+              </li>
+              <li class="skills__name">Node JS</li>
+            </ul>
+          </div>
 
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <i class="fa-brands fa-java"></i> </li>
-                        <li class="skills__name">Java</li>
-                    </ul>
-                </div>
+          <div class="skills__box">
+            <ul>
+              <li class="skills__img"><i class="fa-brands fa-java"></i></li>
+              <li class="skills__name">Java</li>
+            </ul>
+          </div>
 
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <i class="fa-brands fa-css3-alt"></i> </li>
-                        <li class="skills__name">CSS</li>
-                    </ul>
-                </div>
+          <div class="skills__box">
+            <ul>
+              <li class="skills__img"><i class="fa-brands fa-css3-alt"></i></li>
+              <li class="skills__name">CSS</li>
+            </ul>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- Sección de Soft skills --------------------------------------------------------------------------->
-    <section class="soft" id="soft">
+      <!-- Sección de Soft skills --------------------------------------------------------------------------->
+      <section class="soft" id="soft">
         <h3 class="soft__title">Soft Skills</h3>
-            <div class="soft__line">
-                <div class="soft__box">
-                    <ul>
-                        <li class="soft__img"><img src="assets\skate_icon.png"></li>
-                        <li class="soft__name"> Patinaje</li>
-                    </ul>
-                </div>
+        <div class="soft__line">
+          <div class="soft__box">
+            <ul>
+              <li class="soft__img"><img src="assets\skate_icon.png" /></li>
+              <li class="soft__name">Patinaje</li>
+            </ul>
+          </div>
 
-                <div class="soft__box">
-                    <ul>
-                        <li class="soft__img"> <img src="assets\guitar_icon.png" alt=""></li>
-                        <li class="soft__name">Tocar bajo</li>
-                    </ul>
-                </div>
+          <div class="soft__box">
+            <ul>
+              <li class="soft__img">
+                <img src="assets\guitar_icon.png" alt="" />
+              </li>
+              <li class="soft__name">Tocar bajo</li>
+            </ul>
+          </div>
 
-                <div class="soft__box">
-                    <ul>
-                        <li class="soft__img"> <img src="assets\headphones_icon.png" alt=""></li>
-                        <li class="soft__name">Oir música</li>
-                    </ul>
-                </div>
+          <div class="soft__box">
+            <ul>
+              <li class="soft__img">
+                <img src="assets\headphones_icon.png" alt="" />
+              </li>
+              <li class="soft__name">Oir música</li>
+            </ul>
+          </div>
 
-                <div class="soft__box">
-                    <ul>
-                        <li class="soft__img"><img src="assets\tv_icon.png" alt=""></li>
-                        <li class="soft__name">Ver séries</li>
-                    </ul>
-                </div>
+          <div class="soft__box">
+            <ul>
+              <li class="soft__img"><img src="assets\tv_icon.png" alt="" /></li>
+              <li class="soft__name">Ver séries</li>
+            </ul>
+          </div>
 
-                <div class="soft__box">
-                    <ul>
-                        <li class="soft__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
-                        <li class="soft__name">Cocinar</li>
-                    </ul>
-                </div>
+          <div class="soft__box">
+            <ul>
+              <li class="soft__img">
+                <img src="assets\forkspoon_icon.png" alt="" />
+              </li>
+              <li class="soft__name">Cocinar</li>
+            </ul>
+          </div>
 
-                <div class="soft__box">
-                    <ul>
-                        <li class="soft__img"> <img src="assets\camera_icon.png" alt=""> </li>
-                        <li class="soft__name">Tomar fotos</li>
-                    </ul>
-                </div>
+          <div class="soft__box">
+            <ul>
+              <li class="soft__img">
+                <img src="assets\camera_icon.png" alt="" />
+              </li>
+              <li class="soft__name">Tomar fotos</li>
+            </ul>
+          </div>
         </div>
-    </section>
-<!---------------------------------------------------------------------------------------------------------------------->
-        <!-- Sección de Formación académica -->
-    <section class="academic" id="formacion">
-        <h2 class="academic__title" >Formación académica</h2>
+      </section>
+      <!---------------------------------------------------------------------------------------------------------------------->
+      <!-- Sección de Formación académica -->
+      <section class="academic" id="formacion">
+        <h2 class="academic__title">Formación académica</h2>
         <div class="academic__courses">
-            <div class="academic__courses__box">
-                <ul class="academic__courses__list">
-                    <!-- Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img"><img src="/assets/apLogo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Fullstack developer jr.</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2021/2022 - Argentina programa</p></li>
-                </ul>
-            </div>
-            <div class="academic__courses__box">
-                <ul class="academic__courses__list">
-                    <!--Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img "><img src="assets\alura_logo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Fullstack developer jr.</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>En curso - Alura</p></li>
-                </ul>
-            </div>
-            <div class="academic__courses__box">
-                <ul class="academic__courses__list">
-                    <!-- Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img "><img src="assets/egg.png"></li>
-                    <li class="academic__courses__item__title"><h4>Programación desde 0</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2022 - Egg cooperation</p></li>
-                </ul>
-            </div>
+          <div class="academic__courses__box">
+            <ul class="academic__courses__list">
+              <!-- Pon el logotipo de la institución de formación -->
+              <li class="academic__courses__item__img">
+                <img src="/assets/apLogo.png" />
+              </li>
+              <li class="academic__courses__item__title">
+                <h4>Fullstack developer jr.</h4>
+              </li>
+              <li class="academic__courses__item__subtitle">
+                <p>2021/2022 - Argentina programa</p>
+              </li>
+            </ul>
+          </div>
+          <div class="academic__courses__box">
+            <ul class="academic__courses__list">
+              <!--Pon el logotipo de la institución de formación -->
+              <li class="academic__courses__item__img">
+                <img src="assets\alura_logo.png" />
+              </li>
+              <li class="academic__courses__item__title">
+                <h4>Fullstack developer jr.</h4>
+              </li>
+              <li class="academic__courses__item__subtitle">
+                <p>En curso - Alura</p>
+              </li>
+            </ul>
+          </div>
+          <div class="academic__courses__box">
+            <ul class="academic__courses__list">
+              <!-- Pon el logotipo de la institución de formación -->
+              <li class="academic__courses__item__img">
+                <img src="assets/egg.png" />
+              </li>
+              <li class="academic__courses__item__title">
+                <h4>Programación desde 0</h4>
+              </li>
+              <li class="academic__courses__item__subtitle">
+                <p>2022 - Egg cooperation</p>
+              </li>
+            </ul>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- Sección de Experiencia Profesional/Proyectos------------------------------------------------------------------------------->
-    <section class="experience" id="xp">
-        <h2 class="experience__section__title" >Experiencia Profesional y Proyectos</h2>
-            <div class="experience__galery">
-                <div class ="experience__card">
-                    <img src="./assets/fondoAp.jpg" alt="ap_logo">
-                    <div class="experience__card__body">
-                        <h5>Portfolio Fullstack</h5>
-                        <p>Realizado en el marco del programa nacional Fullstack Developer jr. "Argentina programa - Yo programo".
-                             utilizando diversas herramientas como Angular para el frontend, Java Springboot para el backend, MySQL en base de datos relacionales,
-                             entre otros.
-                        </p>
-                        <div class="experience__card__btn">
-                            <a href="https://github.com/EstebanDaniel" target="_blank"><button class="experience__card__btn--repo">Repositório</button></a>
-                            <a href="https://hosting-angular-99528.web.app" target="_blank"><button class="experience__card__btn--demo">Ver demo</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class ="experience__card"> 
-                    <img src="./assets/aluralatam.png" alt="portfolioOne">
-                    <div class="experience__card__body">
-                        <h5>Portfolio frontend</h5>
-                        <p>Realizado en el marco del programa One Oracle Next Education de Alura latam, como parte del challenge numero tres.
-                            Utilizando html, Css, Js para la realización del proyecto.
-                        </p>
-                        <div class="experience__card__btn">
-                            <a href="https://github.com/EstebanDaniel/PortfolioOne.git" target="_blank"><button class="experience__card__btn--repo">Repositório</button></a>
-                            <a href="" target="_blank"><button class="experience__card__btn--demo">Ver demo</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class ="experience__card">
-                    <img src="./assets/ahorcado.png" alt="ahorcadoOne">
-                    <div class="experience__card__body">
-                        <h5>Juego del ahorcado</h5>
-                        <p>Challenge dos del programa One Oracle Next Education de Alura, donde se pone en practica el manejo del DOM con Js.</p>
-                        <div class="experience__card__btn">
-                            <a href="https://github.com/EstebanDaniel/OneJuegoAhorcado.git" target="_blank"><button class="experience__card__btn--repo">Repositório</button></a>
-                            <a href="https://estebandaniel.github.io/OneJuegoAhorcado/" target="_blank"><button class="experience__card__btn--demo">Ver demo</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class ="experience__card">
-                    <img src="./assets/encriptador.png" alt="encriptadorOne">
-                    <div class="experience__card__body">
-                        <h5>Encriptador One</h5>
-                        <p>Primer challenge del programa One Oracle Next Education de Alura latam, como puesta a punto de los conocimientos adquiridos
-                            en la ruta "principiante en programación"
-                        </p>
-                            <div class="experience__card__btn">
-                            <a href="https://github.com/EstebanDaniel/EncriptadorOne.git" target="_blank"><button class="experience__card__btn--repo">Repositório</button></a>
-                            <a href="https://estebandaniel.github.io/EncriptadorOne/" target="_blank"><button class="experience__card__btn--demo">Ver demo</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class ="experience__card">
-                    <img src="./assets/dasslogo.png" alt="dassLogo">
-                    <div class="experience__card__body">
-                        <h5>Dass SRL. Misiones, Argentina</h5>
-                        <p>Operario en multiples puestos, en los 9 años que desempeñe funciones en la empresa. Obteniendo un perfil responsable,
-                            con orientación a mejoras del desepeño de la mano de LEAN, 5s, etc.
-                            
-                        </p>
-                         <p>
-                            2011-2020
-                         </p>
-                    </div>
-                </div>
+      <!-- Sección de Experiencia Profesional/Proyectos------------------------------------------------------------------------------->
+      <section class="experience" id="xp">
+        <h2 class="experience__section__title">
+          Experiencia Profesional y Proyectos
+        </h2>
+        <div class="experience__galery">
+          <div class="experience__card">
+            <img src="./assets/fondoAp.jpg" alt="ap_logo" />
+            <div class="experience__card__body">
+              <h5>Portfolio Fullstack</h5>
+              <p>
+                Realizado en el marco del programa nacional Fullstack Developer
+                jr. "Argentina programa - Yo programo". utilizando diversas
+                herramientas como Angular para el frontend, Java Springboot para
+                el backend, MySQL en base de datos relacionales, entre otros.
+              </p>
+              <div class="experience__card__btn">
+                <a href="https://github.com/EstebanDaniel" target="_blank"
+                  ><button class="experience__card__btn--repo">
+                    Repositório
+                  </button></a
+                >
+                <a href="https://hosting-angular-99528.web.app" target="_blank"
+                  ><button class="experience__card__btn--demo">
+                    Ver demo
+                  </button></a
+                >
+              </div>
             </div>
-    </section> 
+          </div>
 
-        <!-- Sección de Contacto ----------------------------------------------------------------------------------------------------->
-        <section class="formcontacto" id="contacto">
-            <div  class="formcontacto__contacto">
-                <div class="formcontacto--esquerda">
-                    <img class="formcontacto__img" src="assets/contaco.jpg">
-                </div>
-                <div class="formcontacto__text">
-                    <h2 class="formcontato__title">Contacto</h2>
-                    <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
-                    <h3 class="formcontacto__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-
-                    <form class="formcontacto__form">
-                        <div class="input-container">
-                        <input class="formcontacto__input --input" type="text" name="name" placeholder="Nombre" id="name" required pattern="[\s\S]{4,50}" data-tipo="nombre">
-                        <span class="input-message-error"></span>
-                        </div>
-
-                        <div class="input-container">
-                        <input class="formcontacto__input --input" type="email" name="email" placeholder="E-mail" required data-tipo = "email">
-                        <span class="input-message-error"></span>
-                    </div>
-
-                    <div class="input-container">
-                        <input class="formcontacto__input --input" type="text" name="asunto" placeholder="Asunto" required pattern="[\s\S]{4,50}" data-tipo ="asunto">
-                        <span class="input-message-error"></span>
-                    </div>
-
-                    <div class="input-container">
-                        <textarea class="formcontacto__textarea --input" name="mensaje" placeholder="Mensaje" 
-                         required data-tipo ="mensaje" id="mensaje"></textarea>
-                        <span class="input-message-error"></span>
-                    </div>
-                    
-                        <button disabled type="submit" class="formcontacto__btn" id="submitBtn">Enviar mensaje</button>
-                    </form>
-                </div>
+          <div class="experience__card">
+            <img src="./assets/aluralatam.png" alt="portfolioOne" />
+            <div class="experience__card__body">
+              <h5>Portfolio frontend</h5>
+              <p>
+                Realizado en el marco del programa One Oracle Next Education de
+                Alura latam, como parte del challenge numero tres. Utilizando
+                html, Css, Js para la realización del proyecto.
+              </p>
+              <div class="experience__card__btn">
+                <a
+                  href="https://github.com/EstebanDaniel/PortfolioOne.git"
+                  target="_blank"
+                  ><button class="experience__card__btn--repo">
+                    Repositório
+                  </button></a
+                >
+                <a href="" target="_blank"
+                  ><button class="experience__card__btn--demo">
+                    Ver demo
+                  </button></a
+                >
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!-- Sección de Footer------------------------------------------------------------------ -->
-        <section class="footer">
-            <div class="footer__rodapie">
-                <p>Desarrolado por Esteban Daniel Cardozo</p>
-                <p> ©2022</p>
+          <div class="experience__card">
+            <img src="./assets/ahorcado.png" alt="ahorcadoOne" />
+            <div class="experience__card__body">
+              <h5>Juego del ahorcado</h5>
+              <p>
+                Challenge dos del programa One Oracle Next Education de Alura,
+                donde se pone en practica el manejo del DOM con Js.
+              </p>
+              <div class="experience__card__btn">
+                <a
+                  href="https://github.com/EstebanDaniel/OneJuegoAhorcado.git"
+                  target="_blank"
+                  ><button class="experience__card__btn--repo">
+                    Repositório
+                  </button></a
+                >
+                <a
+                  href="https://estebandaniel.github.io/OneJuegoAhorcado/"
+                  target="_blank"
+                  ><button class="experience__card__btn--demo">
+                    Ver demo
+                  </button></a
+                >
+              </div>
             </div>
-        </section>
+          </div>
+
+          <div class="experience__card">
+            <img src="./assets/encriptador.png" alt="encriptadorOne" />
+            <div class="experience__card__body">
+              <h5>Encriptador One</h5>
+              <p>
+                Primer challenge del programa One Oracle Next Education de Alura
+                latam, como puesta a punto de los conocimientos adquiridos en la
+                ruta "principiante en programación"
+              </p>
+              <div class="experience__card__btn">
+                <a
+                  href="https://github.com/EstebanDaniel/EncriptadorOne.git"
+                  target="_blank"
+                  ><button class="experience__card__btn--repo">
+                    Repositório
+                  </button></a
+                >
+                <a
+                  href="https://estebandaniel.github.io/EncriptadorOne/"
+                  target="_blank"
+                  ><button class="experience__card__btn--demo">
+                    Ver demo
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="experience__card">
+            <img src="./assets/dasslogo.png" alt="dassLogo" />
+            <div class="experience__card__body">
+              <h5>Dass SRL. Misiones, Argentina</h5>
+              <p>
+                Operario en multiples puestos, en los 9 años que desempeñe
+                funciones en la empresa. Obteniendo un perfil responsable, con
+                orientación a mejoras del desepeño de la mano de LEAN, 5s, etc.
+              </p>
+              <p>2011-2020</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Contacto ----------------------------------------------------------------------------------------------------->
+      <section class="formcontacto" id="contacto">
+        <div class="formcontacto__contacto">
+          <div class="formcontacto--esquerda">
+            <img class="formcontacto__img" src="assets/contaco.jpg" />
+          </div>
+          <div class="formcontacto__text">
+            <h2 class="formcontato__title">Contacto</h2>
+            <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
+            <h3 class="formcontacto__subtext">
+              Complete el siguiente formulario y me pondré en contacto con usted
+              lo antes posible.
+            </h3>
+
+            <form
+              class="formcontacto__form"
+              id="form"
+              action="https://formspree.io/f/mvonondz"
+              method="POST"
+            >
+              <div class="input-container">
+                <input
+                  class="formcontacto__input --input"
+                  type="text"
+                  name="name"
+                  placeholder="Nombre"
+                  id="name"
+                  required
+                  pattern="[\s\S]{4,50}"
+                  data-tipo="nombre"
+                />
+                <span class="input-message-error"></span>
+              </div>
+
+              <div class="input-container">
+                <input
+                  class="formcontacto__input --input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                  data-tipo="email"
+                />
+                <span class="input-message-error"></span>
+              </div>
+
+              <div class="input-container">
+                <input
+                  class="formcontacto__input --input"
+                  type="text"
+                  name="asunto"
+                  placeholder="Asunto"
+                  required
+                  pattern="[\s\S]{4,50}"
+                  data-tipo="asunto"
+                />
+                <span class="input-message-error"></span>
+              </div>
+
+              <div class="input-container">
+                <textarea
+                  class="formcontacto__textarea --input"
+                  name="mensaje"
+                  placeholder="Mensaje"
+                  required
+                  data-tipo="mensaje"
+                  id="mensaje"
+                ></textarea>
+                <span class="input-message-error"></span>
+              </div>
+
+              <button
+                disabled
+                type="submit"
+                class="formcontacto__btn"
+                id="submitBtn"
+              >
+                Enviar mensaje
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Footer------------------------------------------------------------------ -->
+      <section class="footer">
+        <div class="footer__rodapie">
+          <p>Desarrolado por Esteban Daniel Cardozo</p>
+          <p>©2022</p>
+        </div>
+      </section>
     </div>
- <!-- Script del documento JavaScript -->
-<script src="./app.js" type="module"></script>
-</body>
+    <!-- Script del documento JavaScript -->
+    <script src="./app.js" type="module"></script>
+  </body>
 </html>
