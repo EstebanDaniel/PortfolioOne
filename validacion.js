@@ -1,4 +1,5 @@
-//Haz tú validación en javascript acá
+//funcion que realiza la validacion del formulario, junto con los cambios de estilos css
+//ademas de habilitar y deshabilitar el boton submit
 export function valida(input) {
     const tipoDeInput = input.dataset.tipo;
     
@@ -27,6 +28,7 @@ export function valida(input) {
     console.log(tipoDeInput);
   }
   
+  //array que contiene los tipos de error de los inputs
   const tipoDeErrores = [
     "valueMissing",
     "typeMismatch",
@@ -34,6 +36,7 @@ export function valida(input) {
     "customError",
   ];
   
+  //objeto que contiene los mensajes de error personalizados
   const mensajesDeError = {
     nombre: {
       valueMissing: "El campo 'nombre' no puede estar vacío.",
@@ -54,10 +57,12 @@ export function valida(input) {
     },
   };
   
+  //objeto que contiene el metodo para el textarea "mensaje"
   const validadores = {
     mensaje: (input) => validarMensaje(input),
   };
 
+  //mesajes de error de los inputs del formulario
   function mostrarMensajeDeError(tipoDeInput, input) {
     let mensaje = "";
     tipoDeErrores.forEach((error) => {
@@ -71,6 +76,7 @@ export function valida(input) {
     return mensaje;
   }
 
+  //validacion del textarea "mensaje"
   function validarMensaje(input) {
     const txt = input.value;
     let mensaje = "";
