@@ -28,6 +28,10 @@ html.dark-mode img{
     filter:invert(100%);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
