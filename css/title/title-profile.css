@@ -10,7 +10,26 @@
 
 
 .title__bio{
-    font-size:3.25rem;
+
+    font-size:3rem;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 29ch;
+    animation: typing 2s steps(29),
+    blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing  {
+    from {
+        width: 0;
+    } 
+}
+
+@keyframes blink {
+    50%  {
+        border-color:transparent;
+    }
 }
 
 .title__subsection{
