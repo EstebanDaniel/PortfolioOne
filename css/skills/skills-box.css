@@ -3,7 +3,7 @@
     justify-content: flex-start;
     align-items: flex-end;
     width:176px;
-    height:174px;
+    height:176px;
     background-color: #fff;
     padding-left: 0;
 }
@@ -28,5 +28,26 @@
     margin-top:0.5rem;
     font-weight:bold;
     
-    
+}
+
+@media(max-width:768px){
+
+    .skills__name{
+
+       font-size: 0.875rem;
+        
+    }
+}
+
+
+@media(max-width:468px){
+
+    .skills__box{
+        width:126px;
+        height:126px;
+      
+    }
+
+   
+
 }
