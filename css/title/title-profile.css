@@ -12,10 +12,10 @@
 .title__bio{
 
     font-size:2.75rem;
-    white-space: nowrap;
     border-right: 4px solid;
-    width: 29ch;
-    animation: typing 2s steps(29),
+    width: 27ch;
+    white-space: nowrap;
+    animation: typing 2s steps(27),
     blink 0.5s infinite step-end alternate;
     overflow: hidden;
 }
@@ -24,9 +24,8 @@
     from {
         width: 0;
     } 
-    to {
-        width: 100%;
-    }
+
+  
 }
 
 @keyframes blink {
