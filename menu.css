@@ -42,3 +42,10 @@
     
 
 }
+
+/*responsive design-------------------------------------*/
+@media (min-width: 368px) {
+    .menu{
+        justify-content: center;
+    }
+}

@@ -34,3 +34,28 @@
 .experience__card__body p {
     height:96px;
 }
+
+
+@media(max-width:500px){
+
+    .experience__card{
+        margin-right: 0px;
+        position:static;
+        
+    }
+
+    .experience__card img{
+       display: none;
+       position: static;
+    
+    }
+
+    .experience__card__body{
+        
+        position:static;
+        width: 268px;
+        
+    }
+
+   
+}

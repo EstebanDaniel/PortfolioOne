@@ -11,7 +11,7 @@
 
 .title__bio{
 
-    font-size:3rem;
+    font-size:2.75rem;
     white-space: nowrap;
     border-right: 4px solid;
     width: 29ch;
@@ -33,6 +33,125 @@
 }
 
 .title__subsection{
-    font-size:1.375rem;
+    font-size:1.75rem;
     font-weight: normal;
 }
+
+
+/*responsive design-------------------------*/
+
+@media (max-width: 1368px) {
+
+    .title__profile{
+       height: 300px;
+       width: 300px;
+    }
+    
+    
+    
+    .title__bio{
+    
+        font-size:2rem;
+      
+    }
+
+    .title__subsection{
+        font-size:1.5rem;
+        
+    }
+
+
+}
+
+@media (max-width: 996px) {
+
+    .title__profile{
+       height: 248px;
+       width: 248px;
+    }
+    
+    
+    
+    .title__bio{
+    
+        font-size:1.5rem;
+      
+    }
+
+    .title__subsection{
+        font-size:1.25rem;
+        
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .title__profile{
+       height: 146px;
+       width: 146px;
+    }
+    
+    
+    
+    .title__bio{
+    
+        font-size:1.5rem;
+      
+    }
+
+    .title__subsection{
+        font-size:1rem;
+        
+    }
+
+
+}
+
+@media (max-width: 696px) {
+
+    .title__profile{
+       height: 126px;
+       width: 126px;
+    }
+    
+    
+    
+    .title__bio{
+    
+        font-size:1.375rem;
+      
+    }
+
+    .title__subsection{
+        font-size:0.875rem;
+        
+    }
+
+
+}
+
+@media (max-width: 596px) {
+
+    .title__profile{
+       display: none;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+   .title__bio {
+    
+    white-space: normal;
+    border-right: none;
+    width: auto;
+    animation: none,
+    
+    
+    
+}
+}
+
+

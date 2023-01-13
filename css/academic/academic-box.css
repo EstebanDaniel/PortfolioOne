@@ -20,3 +20,17 @@
     transition: 0.3s all;
     transform: scale(0.9);
 }
+
+
+@media (max-width: 768px) {
+
+    .academic__courses{
+  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}

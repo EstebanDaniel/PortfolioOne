@@ -1,5 +1,18 @@
 .skills__line{
     display: flex;
     justify-content:space-between;
+    flex-wrap: wrap;
+    gap:22px;
+    
+}
+
+@media (max-width: 768px) {
+
+    .skills__line{
+        display: flex;
+        justify-content:space-evenly;
+        
+        
+    }
     
 }

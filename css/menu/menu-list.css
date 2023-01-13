@@ -18,3 +18,40 @@
    
     text-decoration: underline;
 }
+
+
+@media(max-width:996px){
+
+    .menu__list{
+        
+        gap:1.25rem;
+    }
+
+    .menu__list__item__contacto{
+        font-size: 0.8rem;
+     }
+     
+     .menu__list__item{
+         
+        font-size: 0.8rem;
+     }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+.menu__list__item{
+    display: none;
+}
+
+}
+
+@media(max-width:368px){
+
+    .menu__list{
+        padding-inline-start: 0px;
+    }
+
+}

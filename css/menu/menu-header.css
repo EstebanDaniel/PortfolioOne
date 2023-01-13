@@ -16,4 +16,24 @@
 }
 
 
+@media(max-width:996px){
+
+  .menu__title{
+    font-size:0.875rem;
+  }
+  
+}
+
+@media(max-width:368px){
+
+  .menu__imagen {
+    display: none;
+    margin-right: 0;
+    
+    
+ }
+  
+}
+
+
 

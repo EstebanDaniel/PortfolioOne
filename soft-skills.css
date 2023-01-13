@@ -12,3 +12,13 @@
      font-size:2rem;
  
  }
+
+ @media (max-width: 768px) {
+
+    .soft__title{
+       
+        font-size:1.375rem;
+    
+    }
+    
+}

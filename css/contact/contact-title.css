@@ -28,3 +28,39 @@
     font-weight:normal;
     margin: 0 0 0.5rem 0;  
 }
+
+
+@media(max-width:910px){
+
+    .formcontacto__img{
+        height: 543px;
+        width:414px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .formcontacto--esquerda{
+
+        padding:0 0 0 0;
+    }
+
+    .formcontacto__img{
+     
+        display: none;
+    }
+
+    .formcontato__title{
+        font-size:1.375rem;
+       
+    }
+    
+    .formcontacto__subtext{
+        font-size:0.875rem;
+        
+    }
+}

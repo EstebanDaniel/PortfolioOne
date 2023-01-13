@@ -19,6 +19,7 @@
     padding:1rem;
 }
 
+/*diseñooo de barra----*/
 .experience__galery::-webkit-scrollbar{
     width: 10px;
     background: #d6eaff;
@@ -35,4 +36,41 @@
 .experience__galery::-webkit-scrollbar-thumb:hover{
     background: #0068d7;
     
+}
+
+
+@media(max-width:768px){
+
+   
+
+    .experience__section__title{
+        
+        font-size:1.375rem;
+    }
+
+    .experience__card__p{
+
+        font-size: 0.875rem;
+
+    }
+    
+}
+
+@media(max-width:500px){
+
+    .experience__galery{
+    
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        overflow-y:initial;
+
+        
+    }
+
+   
+
+
 }
