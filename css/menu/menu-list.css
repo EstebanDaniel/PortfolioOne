@@ -1,11 +1,12 @@
 .menu__list{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap:2rem;
 }
 
 .menu__list__item__contacto{
+    display: flex;
    font-weight: bold;
 }
 
@@ -53,5 +54,10 @@
     .menu__list{
         padding-inline-start: 0px;
     }
+
+    .menu__list__item__contacto{
+        display: none;
+    }
+     
 
 }
