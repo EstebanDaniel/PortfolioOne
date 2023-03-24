@@ -25,7 +25,8 @@ export function valida(input) {
         submitBtn.disabled = true;
     }
     
-    console.log(tipoDeInput);
+    console.log(tipoDeInput,input);
+  
   }
   
   //array que contiene los tipos de error de los inputs
@@ -71,6 +72,7 @@ export function valida(input) {
         console.log("input validity boolean:",input.validity[error]);
         console.log("mensaje de error:",mensajesDeError[tipoDeInput][error]);
         mensaje = mensajesDeError[tipoDeInput][error];
+        console.log(mensaje)
       }
     });
     return mensaje;
